@@ -1,0 +1,192 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+.home {
+  padding: 3rem;
+  text-align: center;
+
+  &__title {
+    font-size: 2.5rem;
+    color: #4c00c2;
+  }
+
+  &__description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #555;
+  }
+}
+
+.home {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+// Sección Morada
+.banner {
+  background-color: #4200ff;
+  padding: 4rem 2rem;
+  color: #fff;
+
+  &__contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__texto {
+    flex: 1;
+    min-width: 300px;
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+
+      span {
+        display: block;
+        color: #fff;
+      }
+    }
+
+    p {
+      margin: 1rem 0;
+      font-size: 1.1rem;
+    }
+
+    button {
+      background-color: #fff;
+      color: #4200ff;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #e6e6e6;
+      }
+    }
+  }
+}
+
+// Sección Imagen + Texto
+.especializaciones__contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.especializaciones__imagen {
+  flex: 1;
+  max-width: 800px;
+
+  img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
+
+.especializaciones__texto {
+  flex: 1;
+  max-width: 600px;
+
+  h3 {
+    color: #4200ff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+
+  ul {
+    list-style: none;
+    color: #333;
+    padding: 0;
+    margin-bottom: 2rem;
+
+    li {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: 0.5rem;
+
+      &::before {
+        content: "✔";
+        position: absolute;
+        left: 0;
+        color: #4200ff;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .especializaciones__boton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darkred;
+    }
+  }
+}
+
+
+// Contenedor principal del bloque "Nuestras Especializaciones"
+.especializaciones {
+  background-color: #4200ff;
+  padding: 0.8rem 1rem;
+  text-align: center;
+
+  &__titulo {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+  }
+}
+
+
+// Contenedor principal del bloque "Nuestras Especializaciones"
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 3rem 1rem;
+  background-color: #f8f8f8;
+}
+

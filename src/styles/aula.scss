@@ -1,0 +1,13 @@
+.aula {
+  padding: 3rem;
+
+  &__title {
+    font-size: 2rem;
+    color: #111;
+  }
+
+  &__description {
+    margin-top: 0.5rem;
+    color: #444;
+  }
+}

@@ -1,0 +1,40 @@
+.formulario-interes {
+  font-family: 'Poppins', sans-serif;
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #4200ff;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input,
+    textarea,select {
+      font-family: inherit; // 👈 Esto es clave
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #4200ff;
+      color: white;
+      border: none;
+      padding: 0.8rem;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}

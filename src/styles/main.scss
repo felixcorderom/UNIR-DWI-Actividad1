@@ -1,0 +1,16 @@
+@import './home.scss';
+@import './aula.scss';
+@import './contacto.scss';
+@import './FormularioContacto.scss';
+@import './Hero.scss';
+@import './especializaciones.scss';
+
+/* Puedes agregar aquí estilos globales */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+}
